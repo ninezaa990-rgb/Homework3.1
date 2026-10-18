@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <!-- ใช้ CSS ร่วมกับ index.html ตามที่โจทย์ระบุ -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>แบบฟอร์มการติดต่อ (Contact)</h1>
+    <p>สามารถกรอกข้อมูลเพื่อส่งข้อความติดต่อได้ที่นี่ครับ</p>
+
+    <form class="contact-form" action="#" method="post">
+        <div>
+            <label for="name">ชื่อ - นามสกุล:</label>
+            <input type="text" id="name" name="name" required placeholder="กรอกชื่อ - นามสกุลของคุณ">
+        </div>
+        <div>
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" required placeholder="example@email.com">
+        </div>
+        <div>
+            <label for="message">ข้อความ:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="พิมพ์ข้อความที่ต้องการติดต่อ..."></textarea>
+        </div>
+        <div style="margin-top: 15px;">
+            <button type="submit" class="btn-contact" style="border: none; cursor: pointer;">ส่งข้อความ</button>
+        </div>
+    </form>
+
+    <footer>
+        <p><a href="index.html">กลับสู่หน้าหลัก (Back to Home)</a></p>
+    </footer>
+
+</body>
+</html>

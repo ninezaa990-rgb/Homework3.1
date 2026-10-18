@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    color: #333;
+}
+
+/* ทำให้รูป profile เป็นวงกลมตามโจทย์ */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ตอบ Challenge: ใส่ padding บน td เพื่อเว้นระยะห่างระหว่างรูปกับข้อความ */
+.profile-layout td {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+/* ปรับแต่งตารางประสบการณ์และทักษะ */
+table.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+table.data-table th, table.data-table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table.data-table th {
+    background-color: #f2f2f2;
+}
+
+/* สไตล์ปุ่มลิงก์ Contact */
+.btn-contact {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-contact:hover {
+    background-color: #0056b3;
+}
+
+/* สไตล์ฟอร์มในหน้า contact.html */
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
